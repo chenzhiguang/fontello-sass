@@ -86,9 +86,17 @@
 }
 
 @mixin _fontello-produce( $prefix, $map, $margin, $position ) {
-  .#{$prefix} {
-    @include fontello-init( $position );
-    @include fontello-margin( $margin, $position );
+  @if $position == after {
+    .#{$prefix}-after {
+      @include fontello-init( after );
+      @include fontello-margin( $margin, after );
+    }
+  }
+  @else {
+    .#{$prefix} {
+      @include fontello-init();
+      @include fontello-margin( $margin );
+    }
   }
 
   @each $name, $value in $map {
