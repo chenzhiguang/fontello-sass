@@ -1,0 +1,26 @@
+{
+  "name": "fontello-sass",
+  "version": "0.1.0",
+  "description": "some sass mixins to create fontello icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzhiguang/fontello-sass.git"
+  },
+  "keywords": [
+    "fontello",
+    "sass",
+    "font icons"
+  ],
+  "author": "Chen Zhiguang <chen_zhiguang@yahoo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenzhiguang/fontello-sass/issues"
+  },
+  "homepage": "https://github.com/chenzhiguang/fontello-sass#readme",
+  "dependencies": {
+  }
+}
