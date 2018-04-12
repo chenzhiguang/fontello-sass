@@ -52,7 +52,7 @@ Examples
 icon.scss
 
     .my-icon {
-        @include fontello( 800 ); // 800 is the fontello code, do not need to the prefix "E"
+        @include fontello( \e800 ); // \e800 is the fontello code
     }
 
 icon.html
@@ -70,7 +70,7 @@ icon.scss
     }
 
     .icon-logo {
-        @include fontello-content( 800 );
+        @include fontello-content( \e800 );
     }
 
     .icon-heart {
@@ -87,8 +87,8 @@ icon.html
 icon.scss
 
     $icons: (
-      logo  : 800,
-      heart : 801,
+      logo  : \e800,
+      heart : \e801,
     );
 
     @include fontello-produce( icon, $icons, .2em, both );
